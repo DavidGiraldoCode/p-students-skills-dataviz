@@ -1,13 +1,18 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { observer } from "mobx-react-lite";
+import WordCloud from './components/WordCloud.jsx';
+import Chord from './components/Chord.jsx';
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+//<WordCloud plainWordsString={props.model.getAllAbouts()} />
 
-  return <div><h1>Hello world</h1></div>
+function App(props) {
+  return <div><p>{props.model.name}</p>
+  <Chord students={props.model.getStudents()}/>
+  </div>
 }
 
-export default App
+export default observer(App);
 
 /*   <>
       <div>

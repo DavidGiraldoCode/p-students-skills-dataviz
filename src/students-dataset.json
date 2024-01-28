@@ -1,0 +1,2669 @@
+{
+    "students": [
+       {
+          "alias":"Caterpillar Fungus",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-12",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I am putting myself in an uncomfortable position in the two years at KTH so that I am forced to learn. I am a noob at programming and want to take it to another level by the time I graduate in 2025 so that I can build a viable product by the end of graduation.  My hobbies include cycling and playing football. I don't travel often and play computer games as I would like to.",
+             "expectation":"I am interested in maps, so I would like to create a system to visualise stuff and create a map-based storytelling platform. ",
+             "relevant_exp":"I am not sure if I have taken any courses related to this. This seems an interesting, hard course, and I would like to force myself to learn. ",
+             "futureProjections":"Consultant"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":2
+             },
+             {
+                "skillname":"Math",
+                "value":2
+             },
+             {
+                "skillname":"Art",
+                "value":2
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":4
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":3
+             },
+             {
+                "skillname":"HCI programming",
+                "value":4
+             },
+             {
+                "skillname":"User test",
+                "value":3
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":8
+             }
+          ]
+       },
+       {
+          "alias":"tjsol",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Human-Computer Interaction",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Web Development",
+             "expectation":"I'd like to use my learnings in a professional setting.",
+             "relevant_exp":"Web Development, during my bachelor.",
+             "futureProjections":"Software Engineer"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":5
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":3
+             },
+             {
+                "skillname":"Art",
+                "value":8
+             },
+             {
+                "skillname":"Computer",
+                "value":9
+             },
+             {
+                "skillname":"Programming",
+                "value":7
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":2
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":6
+             },
+             {
+                "skillname":"Communication",
+                "value":4
+             },
+             {
+                "skillname":"Collaboration",
+                "value":6
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":10
+             }
+          ]
+       },
+       {
+          "alias":"Rookie9",
+          "university":"KTH",
+          "starttingYear":18,
+          "graduatingYearMonth":"2025-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"NaN",
+             "expectation":"How to effectively represent and analyze data through visualization. Want to learn more about the application. ",
+             "relevant_exp":"Data Visuliazation. In 2022 in China, Shanghai Jiaotong University.",
+             "futureProjections":"Two possible ways. One is pursuing another master degree in different fields such as finance or business. The other one is working in technology or game companies as an algorithm engineer or other similar work."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":5
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":5
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":4
+             }
+          ]
+       },
+       {
+          "alias":"matcha",
+          "university":"The Hong Kong University of Science and Technology",
+          "starttingYear":2021,
+          "graduatingYearMonth":"2025-06",
+          "major":"Chemical Engineering + AI",
+          "degree":"Bachelor in Engineering",
+          "thesisStatus":"NaN",
+          "about":{
+             "interest":"Hello! I'm interested in learning how to incorporate AI into chemical engineering (hence my majors) like AI synthesis, data visualization and optimization. I like sports, crochet and piano.",
+             "expectation":"I want to learn information visualization to better predict and present trends in chemical engineering.",
+             "relevant_exp":"In my home university, I took courses in data science using Python. I also learned how to present data with graphs in MATLAB and Excel. ",
+             "futureProjections":"NaN"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":5
+             },
+             {
+                "skillname":"Computer",
+                "value":5
+             },
+             {
+                "skillname":"Programming",
+                "value":3
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":2
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":3
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":3
+             }
+          ]
+       },
+       {
+          "alias":"Flower",
+          "university":"Lund University",
+          "starttingYear":2010,
+          "graduatingYearMonth":"2025-06",
+          "major":"interactive media technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started planning, but haven't made contacts yet.",
+          "about":{
+             "interest":"I like the art and technology. I am interested in learning new knowledge, painting, traveling, watching movies, reading books, and hiking.",
+             "expectation":"I want to improve my data visualization skills, and enhance my data analysis ability,",
+             "relevant_exp":"I learned some data analysis by python through Coursera last year. ",
+             "futureProjections":"I want to apply for a Ph.D. in the VR field after my master's degree. I am interested in VR game development."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":3
+             },
+             {
+                "skillname":"Art",
+                "value":8
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":1
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":10
+             },
+             {
+                "skillname":"Communication",
+                "value":10
+             },
+             {
+                "skillname":"Collaboration",
+                "value":10
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":8
+             }
+          ]
+       },
+       {
+          "alias":"kapybara",
+          "university":"KTH",
+          "starttingYear":2020,
+          "graduatingYearMonth":"2025-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I like web design and want to work in front end development. In my spare time I enjoy different sports and spending time with my partner and dog.",
+             "expectation":"I expect to learn new methods and software tools for visualization, and to be able to combine that with my other skills in software development.",
+             "relevant_exp":"I have taken courses in web devlopment, dynamic web and also 3D-modelling/visualisation. All of this at KTH.",
+             "futureProjections":"Industry work in front-end or fullstack development"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":4
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":7
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":7
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":6
+             },
+             {
+                "skillname":"User test",
+                "value":6
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"Bebocchia ",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Part of a choir ",
+             "expectation":"Honestly do not know too much ",
+             "relevant_exp":"I did a bit of programming in ReactJS ",
+             "futureProjections":"NaN"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":8
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":8
+             },
+             {
+                "skillname":"Art",
+                "value":1
+             },
+             {
+                "skillname":"Computer",
+                "value":5
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":7
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":5
+             }
+          ]
+       },
+       {
+          "alias":"stellarise",
+          "university":"KTH",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2025-09",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"games especially , sports , animation, technology ",
+             "expectation":"Learn how to better use images to express ideas, understand and communicate",
+             "relevant_exp":"Bachelor OpenGL ,unity ,data analysis \n",
+             "futureProjections":"Game industry "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":4
+             },
+             {
+                "skillname":"Art",
+                "value":6
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":8
+             },
+             {
+                "skillname":"HCI programming",
+                "value":7
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"Kakka",
+          "university":"KTH",
+          "starttingYear":2017,
+          "graduatingYearMonth":"2025-07",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started working, but not completed.",
+          "about":{
+             "interest":"NaN",
+             "expectation":"Anything that is fun or useful",
+             "relevant_exp":"Sadly no relevant course yet.",
+             "futureProjections":"A large game company hopefully"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":1
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":1
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":3
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":4
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":9
+             }
+          ]
+       },
+       {
+          "alias":"Beowulf",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I enjoy creative programming, electronic art and gaming. Movies and cooking.",
+             "expectation":"Understand and use the Data Viz workflow to implement it in industry projects. ",
+             "relevant_exp":"Interaction Programming for the Dynamic Web, Multimodal Interaction",
+             "futureProjections":"I am planing to start my own firm in interactive media development, gaming and creative technologies In Europe and LATAM. I plan to start first with working in a gaming development company as a developer."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":3
+             },
+             {
+                "skillname":"Art",
+                "value":9
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":7
+             },
+             {
+                "skillname":"HCI programming",
+                "value":9
+             },
+             {
+                "skillname":"User test",
+                "value":6
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":10
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"BirdMaster",
+          "university":"KTH",
+          "starttingYear":2020,
+          "graduatingYearMonth":"2026-07",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"theatre, exercise, reading, games, student activities ",
+             "expectation":"concepts and theory in Visualization, whys and hows, terms and aplications",
+             "relevant_exp":"Human interaction design, Machine learning, ",
+             "futureProjections":"NaN"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":4
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":3
+             },
+             {
+                "skillname":"Computer",
+                "value":7
+             },
+             {
+                "skillname":"Programming",
+                "value":6
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":3
+             },
+             {
+                "skillname":"HCI programming",
+                "value":7
+             },
+             {
+                "skillname":"User test",
+                "value":7
+             },
+             {
+                "skillname":"Communication",
+                "value":7
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":6
+             }
+          ]
+       },
+       {
+          "alias":"SargeSmoke",
+          "university":"The Hong Kong University of Science and Technology",
+          "starttingYear":2021,
+          "graduatingYearMonth":"2026-06",
+          "major":"Computer Science, Business Administration",
+          "degree":"Bachelor in Engineering and Business Administration",
+          "thesisStatus":"NaN",
+          "about":{
+             "interest":"Interest: Artificial Intelligence, Finance, Arts, Software Development. Hobbies: Sports (Volleyball, Badminton etc.), Gym, Video Games, Reading   ",
+             "expectation":"I expect to learn the ability to select the best methods to program and visualise different types of information depending on the context and requirements. As I participate in multiple corporate projects, I expect that the skills I learn from this course can aid in my presentations to sponsors by visualising my findings as succinctly and clearly as possible.",
+             "relevant_exp":"My Home University (2021 - 2023): Python Programming, Artificial Intelligence",
+             "futureProjections":"Either as a Software Engineer or a Technology/Business Consultant"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":7
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":5
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":6
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":1
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":3
+             },
+             {
+                "skillname":"Communication",
+                "value":7
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"Weissach",
+          "university":"Karlsruhe Institute of Technology",
+          "starttingYear":"Masters programme in October 2022 (BSc in 2018)",
+          "graduatingYearMonth":"2025-04",
+          "major":"Engineering and Business Administration",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I'm 24 years old from Germany. Manly I'm into cars, especially Porsche. Study wise there's machine learning and vehicle engineering. In my leisure time I love to play handball and watch Formula 1. ",
+             "expectation":"In combination with machine learning and presentation of data.",
+             "relevant_exp":"I don't think that there was any.",
+             "futureProjections":"Projectmanager for Porsche's Exclusive Manufaktur managing the small series."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":4
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":1
+             },
+             {
+                "skillname":"HCI programming",
+                "value":1
+             },
+             {
+                "skillname":"User test",
+                "value":1
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":2
+             }
+          ]
+       },
+       {
+          "alias":"Croco",
+          "university":"University of Stuttgart",
+          "starttingYear":2017,
+          "graduatingYearMonth":"2026-02",
+          "major":" mechanical engineering",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Cars, Doing Sports Boldering, cicling, Volleyball",
+             "expectation":"new mind opening information / Ways to do a presentation on things",
+             "relevant_exp":"non",
+             "futureProjections":"hopfully working at a nice place"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":7
+             },
+             {
+                "skillname":"Computer",
+                "value":2
+             },
+             {
+                "skillname":"Programming",
+                "value":2
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":8
+             },
+             {
+                "skillname":"HCI programming",
+                "value":2
+             },
+             {
+                "skillname":"User test",
+                "value":2
+             },
+             {
+                "skillname":"Communication",
+                "value":7
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":5
+             }
+          ]
+       },
+       {
+          "alias":"w",
+          "university":"The Hong Kong University of Science and Technology",
+          "starttingYear":2021,
+          "graduatingYearMonth":"2025-06",
+          "major":"Data Science and Technology",
+          "degree":"Bachelor in Science",
+          "thesisStatus":"Not working towards a master's degree",
+          "about":{
+             "interest":"I enjoy badminton and food",
+             "expectation":"I expect to learn how to present and convey data in a meaningful way. I expect I would need to present a lot with data in the future",
+             "relevant_exp":"In the first few years of my undergraduate courses in Hong Kong, I learnt a lot of ways to present data in probability and statistics, eg boxplots etc.",
+             "futureProjections":"Corporate job probably"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":2
+             },
+             {
+                "skillname":"Computer",
+                "value":7
+             },
+             {
+                "skillname":"Programming",
+                "value":6
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":2
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":3
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":6
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"kattmat",
+          "university":"KTH",
+          "starttingYear":2020,
+          "graduatingYearMonth":"2025-06",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"politics, carpentry, bread making and, reading and riksgropen",
+             "expectation":"I expect to learn what types of visualisations there are and when they are suitable, I hope to use visualisations to explain the world that surrounds me. ",
+             "relevant_exp":"human computer interaction, intro to machine learning, statistics, basic programming",
+             "futureProjections":"UX/UI designer, product manager maybe"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":4
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":3
+             },
+             {
+                "skillname":"Art",
+                "value":10
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":1
+             },
+             {
+                "skillname":"HCI programming",
+                "value":8
+             },
+             {
+                "skillname":"User test",
+                "value":8
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":4
+             }
+          ]
+       },
+       {
+          "alias":"tofu",
+          "university":"KTH",
+          "starttingYear":2022,
+          "graduatingYearMonth":"2025-06",
+          "major":"Media Technology",
+          "degree":"Bachelor in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Painting, knitting, crocheting, web development",
+             "expectation":"I expect to learn how to present data in a clear and intriguing manner, and what ways are best for certain sets of data",
+             "relevant_exp":"Can't think of any ",
+             "futureProjections":"I see myself working on my own terms remotely with design as well as development, I'd like to be able to call myself a creative developer"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":2
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":7
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":7
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":7
+             },
+             {
+                "skillname":"User test",
+                "value":8
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"gallopinto",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Machine Learning",
+          "degree":"Master in Science",
+          "thesisStatus":"NaN",
+          "about":{
+             "interest":"I am from Nicaragua but lived a bit all over the place since being a teenager. I am interested in how to use AI/ML for sustainable development -- specifically how to help improve living conditions in Nicaragua. This is one of the main reasons why I decided to do a BSc in Data Science and AI, and why I am now doing a MSc now Machine Learning. My current interests are to learn as much as I can and find ways how to achieve my long term goal, while meeting interesting people like-minded. \nMy hobbies include hiking/camping, scuba diving, cooking and hanging with friends :)",
+             "expectation":"How to present the results of my work in a meaningful and impactful way. As a Data Scientist and future ML engineer, I see the importance of not only build good models and get important insights from my data, but also to be able to present it. ",
+             "relevant_exp":"Data Analysis - during my BSc in 2022",
+             "futureProjections":"working for an NGO in something meaninfgul and societally impactful  "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":3
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":7
+             },
+             {
+                "skillname":"User test",
+                "value":4
+             },
+             {
+                "skillname":"Communication",
+                "value":10
+             },
+             {
+                "skillname":"Collaboration",
+                "value":10
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":8
+             }
+          ]
+       },
+       {
+          "alias":"numpy",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Machine Learning",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Coding, machine learning, rock climbing",
+             "expectation":"How to visualize data in correct and attractive visualizations",
+             "relevant_exp":"NaN",
+             "futureProjections":"Industry, hopefully with my own company"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":5
+             },
+             {
+                "skillname":"Statistics",
+                "value":9
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":7
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":7
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":1
+             },
+             {
+                "skillname":"HCI programming",
+                "value":1
+             },
+             {
+                "skillname":"User test",
+                "value":2
+             },
+             {
+                "skillname":"Communication",
+                "value":7
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":10
+             }
+          ]
+       },
+       {
+          "alias":"Kanelbulle",
+          "university":"KTH",
+          "starttingYear":2020,
+          "graduatingYearMonth":"2025-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I enjoy storytelling of many sorts - writing, art, etc. I especially enjoy videogames, mainly games where you get to build your \"own thing\"; like Cities: Skylines, Minecraft, the Sims, etc. I also really like factory-type games where you create your own flow of resources to build something greater. \n\nSince starting at KTH, I've been very interested in the chapter spex (theater production), taking on a large amount of responsibility there currently. ",
+             "expectation":"My expectations are quite low, not because I don't expect the course to teach me valuable information, but rather because I am uncertain of WHAT I will learn. It should be noted that I'm feeling highly optimistic after the first lecture, so don't take that the wrong way :).\n\nSome of my expectations is that I can use what I learn when doing research and/or needing to present data. I think this will be especially useful when writing my master's thesis.",
+             "relevant_exp":"The courses I can think of are math courses: Calculus in one/several variables and Probability theory in statistics, which I took two-to-three years ago in my bachelor's.\nI have also used visualization in Human-Computer Interaction and Machine Learning, both two years ago in my bachelor's also. ",
+             "futureProjections":"I would preferably like to do something related to video games, though I would probably be equally happy with anything that allows me to be creative and is mentally challenging. "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":9
+             },
+             {
+                "skillname":"Art",
+                "value":7
+             },
+             {
+                "skillname":"Computer",
+                "value":7
+             },
+             {
+                "skillname":"Programming",
+                "value":3
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":2
+             },
+             {
+                "skillname":"HCI programming",
+                "value":4
+             },
+             {
+                "skillname":"User test",
+                "value":2
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":2
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":2
+             }
+          ]
+       },
+       {
+          "alias":"sackboy",
+          "university":"KTH",
+          "starttingYear":2018,
+          "graduatingYearMonth":"2026-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started planning, but haven't made contacts yet.",
+          "about":{
+             "interest":"3D animation, programming, calisthenics, game development, art",
+             "expectation":"I see it as a first semi-deep dive into the world of dataviz, since it's new to me. I would love to be able to use it within my 3D work.",
+             "relevant_exp":"Mostly programming and math related courses given by the 5 year computer science degree.",
+             "futureProjections":"Working within the compsci or animation world, either as a freelancer or within a company"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":1
+             },
+             {
+                "skillname":"Statistics",
+                "value":1
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":3
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":3
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":3
+             },
+             {
+                "skillname":"HCI programming",
+                "value":2
+             },
+             {
+                "skillname":"User test",
+                "value":1
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":6
+             }
+          ]
+       },
+       {
+          "alias":"blackcat",
+          "university":"TU Darmstadt",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2026-03",
+          "major":"Medical engineering ",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Like sports, nature and baking",
+             "expectation":"How to visualize 3D or mor dementional data",
+             "relevant_exp":"Visual Computing (at my home university)",
+             "futureProjections":"No boring office job, maybe in the development of prostheses that can communicate with the human body."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":6
+             },
+             {
+                "skillname":"Computer",
+                "value":4
+             },
+             {
+                "skillname":"Programming",
+                "value":3
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":1
+             },
+             {
+                "skillname":"User test",
+                "value":1
+             },
+             {
+                "skillname":"Communication",
+                "value":7
+             },
+             {
+                "skillname":"Collaboration",
+                "value":6
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":2
+             }
+          ]
+       },
+       {
+          "alias":"Shadowheart",
+          "university":"KTH",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2024-12",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I like creating things and using design as a way of expression. On my free time, I also like playing video games.",
+             "expectation":"I expect to learn how to visualize data in the best way. More specifically, what tools to use in order to do so. I feel like information in general is valuable, and therefore being able to visualize the essence of that data is valuable - which is something I hope to use in future work.",
+             "relevant_exp":"DD2258 Introduction to visualization - last year (KTH)",
+             "futureProjections":"I want to start working in the industry asap when I graduate. However, I'm still not completely sure in what field yet."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":2
+             },
+             {
+                "skillname":"Statistics",
+                "value":1
+             },
+             {
+                "skillname":"Math",
+                "value":3
+             },
+             {
+                "skillname":"Art",
+                "value":6
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":1
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"tpain",
+          "university":"University of Washington (Seattle)",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2024-08",
+          "major":"Computer Science, Computer Science: Data Science",
+          "degree":"Bachelor in Science",
+          "thesisStatus":"NaN",
+          "about":{
+             "interest":"It is my first time abroad, and I am realizing travel is a major interest of mine. I chose to study computer science because I wanted to be a game developer, this is still my main interest almost a decade later. I am also very passionate about creating accessible computer science education for students from underprivileged backgrounds (such as myself) and have dedicated a lot of time at my home university working with such students. ",
+             "expectation":"I need this course for my specific graduation requirements at my home university for my data science major. I chose this major so I would have an upper hand when entering the industry since I would have experience working with data in various situations. I think this class will be very helpful in furthering the tools and knowledge I will be applying to industry work (which is happening sooner rather than later).",
+             "relevant_exp":"University of Washington: Introduction to Data Management, Interaction Programming KTH: Advanced Topics in Visualization and Computer Graphics, Database Technology",
+             "futureProjections":"I want to be in industry working on developing meaningful and helpful video game content, as well as supporting students in academia in some capacity."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":4
+             },
+             {
+                "skillname":"Art",
+                "value":3
+             },
+             {
+                "skillname":"Computer",
+                "value":7
+             },
+             {
+                "skillname":"Programming",
+                "value":6
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":6
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":2
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":2
+             }
+          ]
+       },
+       {
+          "alias":"ghostcat",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-07",
+          "major":"Human-Computer Interaction",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started planning, but haven't made contacts yet.",
+          "about":{
+             "interest":"Camera, Headphone, Computer Game, Cat",
+             "expectation":"Information Visulization for scientific research. I want to purchase PhD about visulization of  user's behaviors pattern and psycological  marker in urban space.",
+             "relevant_exp":"I  completed my first master degree in architectural computation in UCL and my master thesis is about visulization and modeling of crowds behavior in media architecture.",
+             "futureProjections":"I am looking for PhD position in Europe about visulization, XR and urban space."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":10
+             },
+             {
+                "skillname":"Computer",
+                "value":10
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":5
+             },
+             {
+                "skillname":"HCI programming",
+                "value":10
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":3
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":5
+             }
+          ]
+       },
+       {
+          "alias":"cyan",
+          "university":"National University of Singapore",
+          "starttingYear":2021,
+          "graduatingYearMonth":"2025-05",
+          "major":"Real Estate",
+          "degree":"Bachelor in Science",
+          "thesisStatus":"not working towards a masters",
+          "about":{
+             "interest":"I love travelling, going to the gym and bowling.",
+             "expectation":"I hope I can learn how to present data in a meaningful way.",
+             "relevant_exp":"Python, VBA, R; all a few semesters back",
+             "futureProjections":"asset manager"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":1
+             },
+             {
+                "skillname":"Statistics",
+                "value":8
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":5
+             },
+             {
+                "skillname":"Computer",
+                "value":7
+             },
+             {
+                "skillname":"Programming",
+                "value":4
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":4
+             },
+             {
+                "skillname":"User test",
+                "value":3
+             },
+             {
+                "skillname":"Communication",
+                "value":10
+             },
+             {
+                "skillname":"Collaboration",
+                "value":10
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":3
+             }
+          ]
+       },
+       {
+          "alias":"BlenderBender",
+          "university":"KTH",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2025-01",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Blender, 3D printing, growing",
+             "expectation":"What works and what does not work for optimal information transfer for different kind of users in different kind of situations. ",
+             "relevant_exp":"Advanced graphics and interaction, 2023",
+             "futureProjections":"Entrepreneur"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":2
+             },
+             {
+                "skillname":"Math",
+                "value":3
+             },
+             {
+                "skillname":"Art",
+                "value":6
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":3
+             },
+             {
+                "skillname":"HCI programming",
+                "value":8
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":10
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":8
+             }
+          ]
+       },
+       {
+          "alias":"Windy65",
+          "university":"KTH",
+          "starttingYear":2022,
+          "graduatingYearMonth":"2024-06",
+          "major":"Electric Engineering",
+          "degree":"Master in Science",
+          "thesisStatus":"Have a supervisor and topic, but haven't started working yet.",
+          "about":{
+             "interest":"Fullfilling a big task interests me. I like playing instruments",
+             "expectation":"Manipulate different visualization tools",
+             "relevant_exp":"not similar courses",
+             "futureProjections":"data scientist"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":2
+             },
+             {
+                "skillname":"Statistics",
+                "value":8
+             },
+             {
+                "skillname":"Math",
+                "value":7
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":5
+             },
+             {
+                "skillname":"Programming",
+                "value":4
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":3
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":6
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"Bond, Jan Bond",
+          "university":"KTH",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2025-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"My biggest interests are related to technology, mostly math and problem solving related. I grew up painting a lot which have made me intersted in 3D art/modelling, but also procedural generation, texture generation and things like that. Other interstests is music, i play in keyboard in a pop band, and also movies and right now i play a lot of table tennis.",
+             "expectation":"I hope to gain insight in how this field can be applied in a professional setting. I hope to get more confident in how to manage data, and program using data. I hope to learn about things that i don't know i want to learn about.",
+             "relevant_exp":"dd2258, dh2323 + machine learning, maths, programming courses",
+             "futureProjections":"3D engine developer"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":8
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":7
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":2
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":5
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"MGH552200",
+          "university":"KTH",
+          "starttingYear":"First Year of the master programme",
+          "graduatingYearMonth":"2025-06",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started planning, but haven't made contacts yet.",
+          "about":{
+             "interest":"I like music, including music deep listening, playing and production. ",
+             "expectation":"My bachelor major is Information Management. I would want to learn how to apply right visualized methods for information explaination from the data perspective, especially from the standpoint of easy-understanding for the information receivers. ",
+             "relevant_exp":"Statistics (completed in bachelor study from National Central University in Taiwan in 2021)",
+             "futureProjections":"I want to be in the music industry with the role of software development. I would want to make a platform from the side of music deep listening and people can share their feelings and perceptions towards artworks with mutual mental connections. "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":7
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":6
+             },
+             {
+                "skillname":"HCI programming",
+                "value":8
+             },
+             {
+                "skillname":"User test",
+                "value":4
+             },
+             {
+                "skillname":"Communication",
+                "value":7
+             },
+             {
+                "skillname":"Collaboration",
+                "value":4
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":8
+             }
+          ]
+       },
+       {
+          "alias":"John Wick",
+          "university":"KTH",
+          "starttingYear":2022,
+          "graduatingYearMonth":"2024-06",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have a supervisor and topic, but haven't started working yet.",
+          "about":{
+             "interest":"My professional interests focus on machine learning and data science. My current skills for the future course project would be data preprocessing and data mining. Therefore, I hope to gain more skills on the visualization part. I like movies and video games as well.",
+             "expectation":"Theories, practical experience of using appropriate tools to visualize complex information. I hope to pursue a data analyst/scientist career and I think skills of information visualization would be very helpful for me in this case.",
+             "relevant_exp":"DD2258 Introduction to Visualization, Computer Graphics and Image/Video Processing",
+             "futureProjections":"I want to work as a data analyst/engineer/scientist in technical industry."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":4
+             },
+             {
+                "skillname":"Art",
+                "value":5
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":3
+             },
+             {
+                "skillname":"Communication",
+                "value":4
+             },
+             {
+                "skillname":"Collaboration",
+                "value":5
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":5
+             }
+          ]
+       },
+       {
+          "alias":"YellowShyGuy",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-08",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Sports like skiing, cycling, running",
+             "expectation":"A range of visualisation techniques that help me display a wide range of different data types",
+             "relevant_exp":"Online IBM course on Data Visualization. ",
+             "futureProjections":"Industry "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":7
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":9
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":4
+             },
+             {
+                "skillname":"HCI programming",
+                "value":7
+             },
+             {
+                "skillname":"User test",
+                "value":4
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"Sam Vimes",
+          "university":"KTH",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2025-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started planning, but haven't made contacts yet.",
+          "about":{
+             "interest":"Reading",
+             "expectation":"how to make complex data legible through the magic of visualization",
+             "relevant_exp":"Dynamic web design at Uppsala university",
+             "futureProjections":"I would like to be either some kind of consultant or a entrepreneur. Preferably I would be working on projects, each taking a few weeks or moths to complete. If each project is different they could provide a nice challenge, give me the opportunity to learn, and prevent me from getting too comfortable. "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":3
+             },
+             {
+                "skillname":"Math",
+                "value":4
+             },
+             {
+                "skillname":"Art",
+                "value":2
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":3
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":1
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":2
+             },
+             {
+                "skillname":"Communication",
+                "value":3
+             },
+             {
+                "skillname":"Collaboration",
+                "value":5
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":7
+             }
+          ]
+       },
+       {
+          "alias":"Frieren",
+          "university":"KTH",
+          "starttingYear":2018,
+          "graduatingYearMonth":"2025-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"NaN",
+          "about":{
+             "interest":"I love cooking, photography, music, hiking/scouting and traveling. In particular Indian and Japanese cooking and listening to vinyls.",
+             "expectation":"How to choose how to display data with more than three dimensions and how to identify good and bad characteristics of real world data visualization",
+             "relevant_exp":"DH1624 in P4 2023 and DH2628 in P3 2023, at KTH",
+             "futureProjections":"Working as a UIUX/HCI developer in a stable company with flexible working hours and possibilities for both remote and office work as well as traveling."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":7
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":8
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":7
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":5
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":6
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":9
+             }
+          ]
+       },
+       {
+          "alias":"DiscoTechLola",
+          "university":"KTH",
+          "starttingYear":2018,
+          "graduatingYearMonth":"2024-12",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I love dancing, storytelling and eating good food.",
+             "expectation":"I expect to learn how to generate a dataset/or retrieve a set and learn tools and techniques of how to make sense of it in a visual way. I would love to get enough tools to be able to carry out more projects in the future.",
+             "relevant_exp":"Programming courses both in KTH (2019-2024) and Stockholm University (2022-2023). ",
+             "futureProjections":"I would like to work in the industry connected to media, entertainment, live events, or developing applications. But this is a hard question for me. I know more how i would like to feel at a job than a specific title. I know I want to work in a team that focuses on teamwork where you learn from each other and excel together. I know i want to have a good boss. I would love for my role to include both coding and the stage of a project where you do research and come up with ideas. I love workshops and seeing things from new perspectives. I love trying to make sense of things. But my brain likes coding too. "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":2
+             },
+             {
+                "skillname":"Statistics",
+                "value":2
+             },
+             {
+                "skillname":"Math",
+                "value":3
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":3
+             },
+             {
+                "skillname":"Programming",
+                "value":3
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":2
+             },
+             {
+                "skillname":"HCI programming",
+                "value":4
+             },
+             {
+                "skillname":"User test",
+                "value":4
+             },
+             {
+                "skillname":"Communication",
+                "value":10
+             },
+             {
+                "skillname":"Collaboration",
+                "value":7
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":3
+             }
+          ]
+       },
+       {
+          "alias":"Aaron",
+          "university":"Tokyo University",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Human-Computer Interaction",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I'm a book nerd (including manga), cinephile, and music nerd (mainly rock n roll and specifically j-rock). I play football and skateboard.",
+             "expectation":"I expect to learn the most avant-garde technologies in this field. I expect to use these skills in data journalism.",
+             "relevant_exp":"Media Programming, in my undergraduate school in 2018. I also learnt some online courses about d3.js last year.",
+             "futureProjections":"I want to join in a tech startup where I can do something innovative about web development and data visualization no matter where."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":6
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":7
+             },
+             {
+                "skillname":"Art",
+                "value":8
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":6
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":6
+             },
+             {
+                "skillname":"HCI programming",
+                "value":7
+             },
+             {
+                "skillname":"User test",
+                "value":7
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":8
+             }
+          ]
+       },
+       {
+          "alias":"GGer",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Media Technology",
+          "degree":"Masters in Interactive Media Technology",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"I'm interested in ",
+             "expectation":"Learn about Data Viz best practices",
+             "relevant_exp":"No",
+             "futureProjections":"I want to work in industry as an Software Engineer."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":9
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":4
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":6
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":2
+             },
+             {
+                "skillname":"HCI programming",
+                "value":5
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":6
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":8
+             }
+          ]
+       },
+       {
+          "alias":"Reisen",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-07",
+          "major":"Vehicle Engineering",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started planning, but haven't made contacts yet.",
+          "about":{
+             "interest":"painting, playing guitar",
+             "expectation":"How to efficiently understand the requirements of visualization from others",
+             "relevant_exp":"data preprocessing, in my bachelor's school 2y ago",
+             "futureProjections":"NaN"
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":3
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":5
+             },
+             {
+                "skillname":"Art",
+                "value":7
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":5
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":6
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":2
+             },
+             {
+                "skillname":"Communication",
+                "value":4
+             },
+             {
+                "skillname":"Collaboration",
+                "value":5
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":3
+             }
+          ]
+       },
+       {
+          "alias":"DrPavel",
+          "university":"KTH",
+          "starttingYear":2019,
+          "graduatingYearMonth":"2025-06",
+          "major":"Computer Science",
+          "degree":"Master in Science",
+          "thesisStatus":"Have started planning, but haven't made contacts yet.",
+          "about":{
+             "interest":"Reading, video games, socializing, working out, It's a mixed blend.",
+             "expectation":"Visualization of Data",
+             "relevant_exp":"Introduction to visualization and CS courses from Datateknik",
+             "futureProjections":"Consultant, Project Lead, Fullstack, Management, Devops could be anything in those areas."
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":4
+             },
+             {
+                "skillname":"Statistics",
+                "value":4
+             },
+             {
+                "skillname":"Math",
+                "value":7
+             },
+             {
+                "skillname":"Art",
+                "value":3
+             },
+             {
+                "skillname":"Computer",
+                "value":8
+             },
+             {
+                "skillname":"Programming",
+                "value":6
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":5
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":5
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":5
+             }
+          ]
+       },
+       {
+          "alias":"SannyKuro",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-08",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Creative technologist, crafty, Video editor, film making, storytelling, visual effects, accessibility \u2014 these are few words that can describe the kind of work I do. Out of which accessibility is also included as I would like to work towards making information visualised into digestable bits even for the non-technical mass. ",
+             "expectation":"I am interested in exploring the spatial aspect of information visualization, as I believe that representing numerical data in physical form can help to restore its meaning. With the constant exposure to large numbers on social media, many people have become desensitized to their significance. ",
+             "relevant_exp":"Probability and statistics, image processing",
+             "futureProjections":"I want to see myself working as a contractor, working on versatile projects, while being in close touch with academia. I am still exploring what job roles fit this expectation. "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":5
+             },
+             {
+                "skillname":"Statistics",
+                "value":5
+             },
+             {
+                "skillname":"Math",
+                "value":6
+             },
+             {
+                "skillname":"Art",
+                "value":8
+             },
+             {
+                "skillname":"Computer",
+                "value":9
+             },
+             {
+                "skillname":"Programming",
+                "value":8
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":9
+             },
+             {
+                "skillname":"HCI programming",
+                "value":8
+             },
+             {
+                "skillname":"User test",
+                "value":7
+             },
+             {
+                "skillname":"Communication",
+                "value":9
+             },
+             {
+                "skillname":"Collaboration",
+                "value":8
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":6
+             }
+          ]
+       },
+       {
+          "alias":"Mintchoco",
+          "university":"KTH",
+          "starttingYear":2023,
+          "graduatingYearMonth":"2025-06",
+          "major":"Media Technology",
+          "degree":"Master in Science",
+          "thesisStatus":"Have not started planning for it.",
+          "about":{
+             "interest":"Gym workouts, dance, technology, reading, travelling, TV/Movies, games",
+             "expectation":"I expect to get a more comprehensive and systematic understanding of information visualization. In addition to how to represent information in a more efficient and effective way. I would love to integrate outcome from this course with other fields within media technology, both for academia and industry. ",
+             "relevant_exp":"Statistics, Information management, 2014-18 at Trinity College Dublin; Google data analyst certificate course, 2022",
+             "futureProjections":"I have passion in both academia and industry but I haven't clearly decided yet. Within academia, I want to pursue a PhD in AI (NLP track, or more ethical aspect). But if something sparkle my interest from the master program, I would love to explore new things as well. If going back to industry, I would see myself working as a product manager in AI industry or switch to data product manager role. "
+          },
+          "skills":[
+             {
+                "skillname":"Information Visualization",
+                "value":5
+             },
+             {
+                "skillname":"Statistics",
+                "value":6
+             },
+             {
+                "skillname":"Math",
+                "value":7
+             },
+             {
+                "skillname":"Art",
+                "value":1
+             },
+             {
+                "skillname":"Computer",
+                "value":6
+             },
+             {
+                "skillname":"Programming",
+                "value":7
+             },
+             {
+                "skillname":"Computer Graphics",
+                "value":3
+             },
+             {
+                "skillname":"HCI programming",
+                "value":3
+             },
+             {
+                "skillname":"User test",
+                "value":7
+             },
+             {
+                "skillname":"Communication",
+                "value":8
+             },
+             {
+                "skillname":"Collaboration",
+                "value":9
+             },
+             {
+                "skillname":"Git Version Control",
+                "value":6
+             }
+          ]
+       }
+    ]
+ }
