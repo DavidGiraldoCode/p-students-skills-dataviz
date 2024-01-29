@@ -23,7 +23,7 @@ function RackControllers(props) {
         </div>)
     }
 
-    return (<div className="rank-controllers container">
+    return (<div className="rank-controllers column">
         <div>
             <input type="radio" onChange={contollerHandler} id="all" name="all" value="all" checked={rankScope === "all"} />
             <label htmlFor="all">All</label>

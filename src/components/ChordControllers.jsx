@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { observer } from "mobx-react-lite";
+import "./ChordControllers.css"
 
 function ChortControllers(props) {
 
@@ -19,7 +20,7 @@ function ChortControllers(props) {
         //console.log(matrixScope);
     }
 
-    return (<div className="chord-controllers container">
+    return (<div className="chord-controllers column">
         <div>
             <input type="radio" onChange={contollerHandler} id="all" name="all" value="all" checked={matrixScope === "all"} />
             <label htmlFor="all">All</label>

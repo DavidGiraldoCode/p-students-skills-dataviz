@@ -1,0 +1,103 @@
+.person-details-view .close {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+}
+
+.adding-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: var(--main-2);
+    width: 368px;
+    height: 80px;
+    padding: 0px 16px;
+}
+.adding-person button{
+    width: 100%;
+}
+
+.person-details-view {
+    position: fixed;
+    padding: 24px 0px;
+    z-index: 99;
+    width: 400px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: var(--main-2);
+    overflow: scroll;
+    text-align: left;
+}
+
+.alias {
+    padding: 0px 16px;
+}
+
+.education {
+    padding: 16px 16px;
+    text-align: left;
+}
+
+.education-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.education-details p {
+    width: 132px;
+    text-align: left;
+}
+
+.about-details {
+    background-color: var(--main-1);
+    text-align: left;
+    padding: 16px 16px;
+}
+
+.skills-details {
+    align-items: flex-start;
+    padding: 16px 16px 100px 16px;
+}
+
+.skills-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-level {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.skill-container {
+    width: 100%;
+    height: 8px;
+    background-color: var(--main-1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.skill {
+    text-align: right;
+    padding: 0;
+    background-color: var(--primary-dark);
+    color: white;
+}
+
+.skill label {
+    line-height: 4px;
+    height: 4px;
+}
