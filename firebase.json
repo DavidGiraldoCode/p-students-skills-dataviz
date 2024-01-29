@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "build-your-dream-team-ivis24",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+

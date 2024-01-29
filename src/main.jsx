@@ -5,7 +5,11 @@ import model from './SkillsModel.js';
 import dataset from "./students-dataset.json"
 import App from './App.jsx'
 import './index.css'
+import { initializeApp } from "firebase/app";
+import firebaseConfig from './firebaseConfig.js';
+// Initialize Firebase
 
+const app = initializeApp(firebaseConfig);
 model.setDataSet(dataset);
 
 if (model.modelReady) {
@@ -19,3 +23,4 @@ if (model.modelReady) {
 
   window.myModel = reactiveModel;
 }
+
