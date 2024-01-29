@@ -1,0 +1,7 @@
+.rank-controllers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 880px;
+    gap: 24px;
+}

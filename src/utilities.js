@@ -18,7 +18,7 @@ function getTopWords(wordsArray) {
     return topWords;
 }
 
-function getConcatenatedAbout(about){
+function getConcatenatedAbout(about) {
     return "".concat(...about.interest, ...about.expectation, ...about.relevant_exp, ...about.futureProjections);
 }
 
@@ -36,12 +36,93 @@ function countUniqueCoincidences(studentA, studentB) {
     // Convert arrays to sets to get unique words
     const setA = new Set(studentA);
     const setB = new Set(studentB);
-  
     // Find the intersection of the two sets
     const intersection = [...setA].filter(word => setB.has(word));
-  
     // Return the count of unique coincidences
     return intersection.length;
-  }
+}
 
-export {getTopWords, getWordsArray, countUniqueCoincidences, getConcatenatedAbout}
+function populateChordMatrix(matrix, studentsArray) {
+    for (let row = 0; row < studentsArray.length; row++) {
+        for (let col = 0; col < studentsArray.length; col++) {
+            if (col === row) {
+                matrix[row][col] = 0;
+            } else {
+                let studentAWordList = getWordsArray(getConcatenatedAbout(studentsArray[row].about));
+                let studentBWordList = getWordsArray(getConcatenatedAbout(studentsArray[col].about));
+                const coincidencies = countUniqueCoincidences(studentAWordList, studentBWordList);
+                if (coincidencies > 4) {
+                    matrix[row][col] = coincidencies;
+                } else { matrix[row][col] = 0; }
+            }
+        }
+    }
+}
+
+function populateChordMatrixByTopic(matrix, studentsArray, topic) {
+    for (let row = 0; row < studentsArray.length; row++) {
+        for (let col = 0; col < studentsArray.length; col++) {
+            if (col === row) {
+                matrix[row][col] = 0;
+            } else {
+                let studentAWordList = getWordsArray(studentsArray[row].about[topic]);
+                let studentBWordList = getWordsArray(studentsArray[col].about[topic]);
+                const coincidencies = countUniqueCoincidences(studentAWordList, studentBWordList);
+                if (coincidencies > 2) {
+                    matrix[row][col] = coincidencies;
+                } else { matrix[row][col] = 0; }
+            }
+        }
+    }
+}
+
+function populateSkillsRank(skillsRanking, studentsArray, skillIndex) {
+
+    function orderBySkill(studentA, studentB) {
+        if (studentA.skills[skillIndex].value < studentB.skills[skillIndex].value)
+            return 1;
+        if (studentA.skills[skillIndex].value > studentB.skills[skillIndex].value)
+            return -1;
+        if (studentA.skills[skillIndex].value === studentB.skills[skillIndex].value)
+            return 0;
+    }
+    const orderedArray = [...studentsArray].sort(orderBySkill);
+
+    function gatherSkills(student) {
+        return {
+            alias: student.alias,
+            skillTag: student.skills[skillIndex].skillname,
+            skillLevel: student.skills[skillIndex].value
+        }
+    }
+
+    orderedArray.forEach((element, index) => {
+        skillsRanking[index] = {
+            alias: element.alias,
+            skillTag: element.skills[skillIndex].skillname,
+            skillLevel: element.skills[skillIndex].value
+        }
+    });
+
+    //skillsRanking = orderedArray.map(gatherSkills);
+}
+
+function populateTotalSkillRank() {
+
+}
+
+function getSkillsLabelList(skills) {
+    return skills.map(skill => { return skill.skillname });
+}
+
+
+export {
+    getTopWords,
+    getWordsArray,
+    countUniqueCoincidences,
+    getConcatenatedAbout,
+    populateChordMatrix,
+    populateChordMatrixByTopic,
+    populateSkillsRank,
+    getSkillsLabelList
+}

@@ -1,8 +1,17 @@
-import dataset from "./students-dataset.json"
-
 export default {
     name: "David",
-    students: dataset.students,
+    students: [],
+    modelReady: false,
+    chordMatrix: [[]],
+    skillsRanking: [],
+    test: true,
+    skillScopeChange: false,
+    currentChord: {},
+
+    setDataSet(datSet) {
+        this.students = datSet.students;
+        this.modelReady = true;
+    },
 
     getAllAbouts() {
         function collectAboutsCB(student) {
@@ -32,6 +41,6 @@ export default {
     },
 
     getStudents() {
-        return this.students;
+        return this.modelReady ? this.students : null;
     }
 }

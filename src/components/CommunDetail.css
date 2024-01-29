@@ -1,0 +1,28 @@
+.right-side-bar {
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    width: 360px;
+    height: 100%;
+    overflow: scroll;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #1a1a1a;
+  }
+  
+  .right-side-bar button {
+    position: fixed;
+    right: 24px;
+  }
+  
+  .student-about-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }

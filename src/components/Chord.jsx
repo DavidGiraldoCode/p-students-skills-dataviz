@@ -1,40 +1,237 @@
 import { observer } from "mobx-react-lite";
 import * as d3 from "d3";
-import { getWordsArray, countUniqueCoincidences, getConcatenatedAbout } from "../utilities";
-
-
+import { useEffect, useState } from "react";
 
 function Chord(props) {
+    function isBorn() {
+        console.log("Chord Born")
+        document.querySelector("#chord_dataviz").innerHTML = null;
+        return function isDyingACB() { console.log('Die') }
+    }
+    useEffect(isBorn, []);
 
     // create input data: a square matrix that provides flow between entities
-    let matrix = Array.from({ length: 41 }, () => Array(41).fill(null));
-    //console.log(props.students);
-    let alias = props.students.map((student) => { return student.alias });
-    //console.log(names);
+    //const [matrix, setMatrix] = useState(props.data);
 
-    for (let row = 0; row < props.students.length; row++) {
-        for (let col = 0; col < props.students.length; col++) {
+    //Array.from({ length: 41 }, () => Array(41).fill(null));
+    //populateChordMatrix(matrix, props.students);
+    const aliases = props.labels
+    //props.students.map((student) => { return student.alias });
 
-            if (col === row) {
-                matrix[row][col] = 0;
-            } else {
-                let studentAWordList = getWordsArray(getConcatenatedAbout(props.students[row].about));
-                let studentBWordList = getWordsArray(getConcatenatedAbout(props.students[col].about));
+    const dimensions = Object({ height: 600, width: 600 });
+    const outerRadius = dimensions.height * 0.5 - 60;
+    const innerRadius = outerRadius - 10;
 
-                const coincidencies = countUniqueCoincidences(studentAWordList, studentBWordList);
+    //const formatValue = d3.format(".1~%");
 
-                if (coincidencies > 5) {
-                    matrix[row][col] = coincidencies;
-                } else { matrix[row][col] = 0; }
-            }
+    const colorScale = d3
+        .scaleOrdinal()
+        .domain(aliases)
+        .range(
+            d3
+                .range(aliases.length)
+                .map((n) => d3.interpolateRainbow(n / aliases.length))
+        )
 
-        }
+    const handleArcOver = (d, i) => {
+        alert(d);
     }
 
-    //console.table(matrix);
+    const shapedData = Object.assign(
+        props.data.map((r) => Object.entries(r).map((v) => +v[1])),
+        {
+            names: aliases,
+            colors: colorScale.domain()
+        }
+    );
 
-    const innerRadius = 230
-    const outerRadius = 240
+    const svg = d3
+        .select("svg")
+        .attr("height", dimensions.height)
+        .attr("width", dimensions.width)
+        .attr(
+            "transform",
+            `translate(${dimensions.height / 2},${dimensions.width / 2})`
+        )
+        .attr("overflow", "visible");
+
+
+    const chord = d3
+        .chord()
+        .padAngle(5 / innerRadius)
+        .sortSubgroups(d3.descending);
+
+    const arc = d3.arc()
+        .innerRadius(innerRadius)
+        .outerRadius(outerRadius);
+
+    const ribbon = d3
+        .ribbon()
+        .radius(innerRadius - 1)
+        .padAngle(1 / innerRadius);
+
+    const chords = chord(shapedData);
+
+    //-----------------------
+    // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
+    // Its opacity is set to 0: we don't see it by default.
+    // create a tooltip
+    function getSomething(e) {
+        const sourceIndex = e.target["__data__"].source.index;
+        const coincidencies = e.target["__data__"].source.value
+        const targetIndex = e.target["__data__"].target.index;
+        const sourceStudent = props.labels[sourceIndex];//.alias;
+        const targetStudent = props.labels[targetIndex];//.alias;
+        return `${sourceStudent} and ${targetStudent} </br> You have ${coincidencies} commun topics`
+        //console.log(`${sourceStudent} and ${targetStudent} have ${coincidencies} commoun topics`);
+    }
+
+    let inside = false;
+
+    let Tooltip = d3.select("#my_dataviz")
+        .append("div")
+        .style("opacity", 0)
+        .attr("class", "tooltip")
+        .style("background-color", "black")
+        .style("border", "solid")
+        .style("border-width", "2px")
+        .style("border-radius", "5px")
+        .style("padding", "5px")
+        .style("width", "240px")
+
+    // Three function that change the tooltip when user hover / move / leave a cell
+    var mouseover = function (d) {
+        inside = true;
+        Tooltip
+            .style("opacity", 1)
+        d3.select(this)
+            .style("stroke", "black")
+            .style("opacity", 1)
+    }
+    var mousemove = function (d) {
+        document.addEventListener("mousemove", logKey);
+
+        function logKey(e) {
+            if (inside)
+                Tooltip
+                    .html(getSomething(e))
+                    .style("position", "absolute")
+                    .style("left", 20 + e.clientX + "px")
+                    .style("top", 20 + e.clientY + "px")
+        }
+
+    }
+    var mouseleave = function (d) {
+        inside = false;
+        Tooltip
+            .style("opacity", 0)
+        d3.select(this)
+            .style("stroke", "none")
+            .style("opacity", 0.8)
+    }
+    //-----------------------
+
+    let group = svg
+        .append("g")
+        .attr("font-size", 10)
+        .attr("font-family", "sans-serif")
+        .selectAll("g")
+        .data(chords.groups)
+        .join("g");
+
+    group
+        .append("path")
+        .attr("fill", (d) => colorScale(aliases[d.index]))
+        .text((d) => aliases[d.index])
+        .attr("d", arc);
+
+    svg
+        .append("g")
+        .attr("fill-opacity", 0.8)
+        .selectAll("path")
+        .data(chords)
+        .join("path")
+        .style("mix-blend-mode", "multiply")
+        .attr("fill", (d) => colorScale(aliases[d.source.index]))
+        .attr("stroke-width", ".2")
+        .attr("d", ribbon)
+        .on("mouseover", mouseover)
+        .on("mousemove", mousemove)
+        .on("mouseleave", mouseleave);
+
+    svg.on("click", onChordFocus);
+
+    function onChordFocus(e) {
+        const sourceIndex = e.target["__data__"].source.index;
+        const targetIndex = e.target["__data__"].target.index;
+        document.querySelector("#chord_dataviz").innerHTML = null;
+        props.onChord({ sourceIndex, targetIndex });
+    }
+
+    useEffect(resetChord, [props.test]);
+    function resetChord() {
+        console.log("props.model.test changed");
+        document.querySelectorAll('.tooltip').forEach(element => {
+            element.remove();
+        });
+        document.querySelector("#chord_dataviz").innerHTML = null;
+
+        group = svg
+            .append("g")
+            .attr("font-size", 10)
+            .attr("font-family", "sans-serif")
+            .selectAll("g")
+            .data(chords.groups)
+            .join("g");
+
+        group
+            .append("path")
+            .attr("fill", (d) => colorScale(aliases[d.index]))
+            .text((d) => aliases[d.index])
+            .attr("d", arc);
+
+        svg
+            .append("g")
+            .attr("fill-opacity", 0.8)
+            .selectAll("path")
+            .data(chords)
+            .join("path")
+            .style("mix-blend-mode", "multiply")
+            .attr("fill", (d) => colorScale(aliases[d.source.index]))
+            .attr("stroke-width", ".2")
+            .attr("d", ribbon)
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave);
+        //.on("click", onChordFocus);
+
+        Tooltip = d3.select("#my_dataviz")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "black")
+            .style("border", "solid")
+            .style("border-width", "2px")
+            .style("border-radius", "5px")
+            .style("padding", "5px")
+            .style("width", "240px")
+        //document.querySelector("#chord_dataviz").innerHTML = null;
+        //document.querySelector("#chord_dataviz").innerHTML = null;
+    }
+
+    return (
+        <div id="my_dataviz">
+            <svg id="chord_dataviz" className="third-party"></svg>
+        </div>)
+}
+
+export default observer(Chord);
+
+/*
+const width = 600;
+    const height = 600;
+    const innerRadius = 216;
+    const outerRadius = 224;
     const colorScale = d3
         .scaleOrdinal()
         .domain(alias)
@@ -51,33 +248,20 @@ function Chord(props) {
             colors: colorScale.domain()
         }
     )
-    const chord = d3
-        .chord()
-        .padAngle(5 / innerRadius)
-        .sortSubgroups(d3.descending);
-
-    const chords = chord(shapedData);
-    const arc = d3.arc()
-        .innerRadius(innerRadius)
-        .outerRadius(outerRadius);
-
-    const ribbon = d3
-        .ribbon()
-        .radius(innerRadius - 1)
-        .padAngle(1 / innerRadius);
+    
 
     // create the svg area
     //document.querySelector("#my_dataviz").innerHTML = "";
     var svg = d3.select("#my_dataviz")
         .append("svg")
-        .attr("width", 440)
-        .attr("height", 440)
+        .attr("width", width)
+        .attr("height", height)
         .append("g")
-        .attr("transform", "translate(220,220)")
+        .attr("transform", `"translate(220,220)`)
 
     // give this matrix to d3.chord(): it will calculates all the info we need to draw arc and ribbon
     var res = d3.chord(shapedData)
-        .padAngle(0.05)     // padding between entities (black arc)
+        .padAngle(0.02)     // padding between entities (black arc)
         .sortSubgroups(d3.descending)
         (matrix)
 
@@ -93,8 +277,8 @@ function Chord(props) {
         .style("fill", "grey")
         .style("stroke", "black")
         .attr("d", d3.arc()
-            .innerRadius(200)
-            .outerRadius(210)
+            .innerRadius(innerRadius)
+            .outerRadius(outerRadius)
         )
 
     // Add the links between groups
@@ -106,10 +290,29 @@ function Chord(props) {
         .enter()
         .append("path")
         .attr("d", d3.ribbon()
-            .radius(200)
+            .radius(208)
         )
         .style("fill", "#69b3a2")
-        .style("stroke", "black");
+        .style("stroke", "none");
+
+*/
+
+/*
+const chord = d3
+        .chord()
+        .padAngle(5 / innerRadius)
+        .sortSubgroups(d3.descending);
+
+    const chords = chord(shapedData);
+    const arc = d3.arc()
+        .innerRadius(innerRadius)
+        .outerRadius(outerRadius);
+
+    const ribbon = d3
+        .ribbon()
+        .radius(innerRadius - 1)
+        .padAngle(1 / innerRadius);
+*/
 
 /*
     var tooltip = d3.select("#my_dataviz")
@@ -121,7 +324,7 @@ function Chord(props) {
         .style("border-width", "1px")
         .style("border-radius", "5px")
         .style("padding", "10px")
-
+ 
     var showTooltip = function (d) {
         tooltip
             .style("opacity", 1)
@@ -129,7 +332,7 @@ function Chord(props) {
             .style("left", (d3.event.pageX + 15) + "px")
             .style("top", (d3.event.pageY - 28) + "px")
     }
-
+ 
     // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
     var hideTooltip = function (d) {
         tooltip
@@ -151,9 +354,3 @@ function Chord(props) {
         .style("stroke", "none")
         .on("mouseover", showTooltip)
         .on("mouseleave", hideTooltip)*/
-
-    return (<div id="my_dataviz"></div>)
-
-}
-
-export default observer(Chord);
