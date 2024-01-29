@@ -28,7 +28,8 @@ img {
 }
 
 /* Remove default list styles */
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -42,7 +43,8 @@ a {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  padding: 0;
+  margin: 0;
   /*---------------------------- MAIN color of the brand */
   --main-1: #0F0F0F;
   --main-2: #191919;
@@ -95,13 +97,14 @@ a:hover {
 body {
 
   box-sizing: border-box;
-  
+
   margin: 0;
+  padding: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  min-width: 400px;
   min-height: 100vh;
-  overflow: hidden; /* Hide scrollbars */
+  overflow: hidden;
+  /* Hide scrollbars */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -111,8 +114,10 @@ body {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 h1 {
@@ -130,6 +135,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: var(--main-white);
 }
 
 button:hover {
@@ -140,10 +146,12 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-label{
+
+label {
   font-size: small;
-  color: var(--main-4);
+  color: var(--main-5);
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -152,7 +160,7 @@ label{
   gap: 24px;
 }
 
-.column{
+.column {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -160,8 +168,12 @@ label{
   gap: 16px;
 }
 
-#my_dataviz {
-  overflow: hidden;
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  gap: 16px;
 }
 
 /*@media (prefers-color-scheme: light) {

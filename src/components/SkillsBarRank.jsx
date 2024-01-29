@@ -16,7 +16,7 @@ function SkillsBarRank(props) {
     }
     useEffect(isBorn, []);*/
     useEffect(() => {
-        svgRef.current.innerHTML="";
+        svgRef.current.innerHTML = "";
         // set the dimensions and margins of the graph
         var margin = { top: 40, right: 40, bottom: 40, left: 80 },
             width = 800 - margin.left - margin.right,
@@ -115,9 +115,20 @@ function SkillsBarRank(props) {
             .attr("height", y.bandwidth())
             .attr("margin-bottom", 46 + "px")
             .attr("fill", "#646cff")
-            .on("mouseover", mouseover)
-            .on("mousemove", mousemove)
-            .on("mouseleave", mouseleave);
+        
+
+        svg.on("click", onBarFocus);
+
+        function onBarFocus(e) {
+            //document.addEventListener("click",e =>{console.log("s")})
+            //console.log("Hello Bar!",e)
+            const alias = e.target["__data__"].alias;
+            console.log("Hello Bar!",alias)
+            //const sourceIndex = e.target["__data__"].source.index;
+            //const targetIndex = e.target["__data__"].target.index;
+            //document.querySelector("#chord_dataviz").innerHTML = null;
+            props.onBar(alias);
+        }
 
     }, [data, props.skillScopeChange]);
 

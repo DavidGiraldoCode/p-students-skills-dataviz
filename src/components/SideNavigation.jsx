@@ -16,10 +16,13 @@ function SideNavigation(props) {
         populateSkillsRank(props.model.skillsRanking, props.model.getStudents(), skillIndex);
     }
 
+    
+
     function matrixManipulationHandler(topic) {
-        props.model.test = !props.model.test;
+        props.model.chordScopeChange = !props.model.chordScopeChange;
         props.model.currentChord.topic = topic;
-        console.log(props.model.currentChord.topic);
+        props.model.currentChord.studentA = null;
+        console.log(props.model.currentChord.topic, props.model.chordScopeChange);
         if (topic === "all")
             populateChordMatrix(props.model.chordMatrix, props.model.getStudents());
 
@@ -30,7 +33,7 @@ function SideNavigation(props) {
     function renderFilterOptions() {
         return <div>
             {affinityTab.focus ? <ChordControllers onMatrixManipulation={matrixManipulationHandler} /> : null}
-            {skillTab.focus ? <RankControllers onRankManipulation={rankManipulationHandler} skillsLabel={props.skillsFilterLabels} /> : null}
+            {skillTab.focus ? <RankControllers  onRankManipulation={rankManipulationHandler} skillsLabel={props.skillsFilterLabels} /> : null}
         </div>
     }
 

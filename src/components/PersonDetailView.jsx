@@ -2,8 +2,13 @@ import { observer } from "mobx-react-lite"
 import "./PersonDetailView.css";
 
 function PersonDetailView(props) {
+
+    function onClose(){
+        props.onCloseDetail();
+    }
+
     return <div className="person-details-view">
-        <button className="close">Close</button>
+        <button className="close" onClick={onClose}>Close</button>
         <div className="alias">
             <label>Alias</label>
             <h2>{props.person.alias}</h2>

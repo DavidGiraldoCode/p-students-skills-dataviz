@@ -1,4 +1,17 @@
-.chord-controllers{
+#my_dataviz {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.affinity-chord-description{
+    width: 720px;
+    text-align: left;
+}
+
+.chord-controllers {
     align-items: flex-start;
     padding: 0px 24px;
 }

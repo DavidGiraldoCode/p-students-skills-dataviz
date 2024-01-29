@@ -20,7 +20,6 @@ function App(props) {
     console.log('App is Born');
     props.model.chordMatrix = Array.from({ length: 41 }, () => Array(41).fill(null));
     populateChordMatrix(props.model.chordMatrix, props.model.getStudents());
-
     populateSkillsRank(props.model.skillsRanking, props.model.getStudents(), 0);
     //console.table(props.model.skillsRanking);
     //populateSkillsRank();
@@ -30,7 +29,7 @@ function App(props) {
 
   const aliases = props.model.getStudents().map((student) => { return student.alias });
 
-  function matrixManipulationHandler(topic) {
+  /*function matrixManipulationHandler(topic) {
     props.model.test = !props.model.test;
     props.model.currentChord.topic = topic;
     console.log(props.model.currentChord.topic);
@@ -39,7 +38,7 @@ function App(props) {
 
     if (topic !== "all")
       populateChordMatrixByTopic(props.model.chordMatrix, props.model.getStudents(), topic);
-  }
+  }*/
 
   function currentChordHandler(customEvent) {
     props.model.currentChord.studentA = props.model.getStudents()[customEvent.targetIndex];
@@ -51,23 +50,33 @@ function App(props) {
     props.model.currentChord.studentA = null;
   }
 
-  function rankManipulationHandler(skillIndex) {
+  function barHandler(alias) {
+    props.model.currentPerson = props.model.getStudents().find(student => {
+      return student.alias === alias;
+    });
+  }
+
+  /*function rankManipulationHandler(skillIndex) {
     props.model.skillScopeChange = !props.model.skillScopeChange;
     console.log(skillIndex);
     populateSkillsRank(props.model.skillsRanking, props.model.getStudents(), skillIndex);
+  }*/
+
+  function closeDetailHandler() {
+    props.model.currentPerson = null;
   }
 
   function makeRouter(model) {
     return createHashRouter([
       {
         path: "/",
-        element: <h1>Hello!</h1>
+        element: <div><h1>Hello!</h1> <p>Build your dream team using this affinity & skills DataViz web app</p></div> 
       }, {
         path: "/affinity",
-        element: <Chord test={model.test} data={model.chordMatrix} labels={aliases} onChord={currentChordHandler} />
+        element: <Chord data={model.chordMatrix} chordScopeChange={props.model.chordScopeChange} labels={aliases} onChord={currentChordHandler} />
       }, {
         path: "/skills",
-        element: <SkillsBarRank skillsRanking={model.skillsRanking} skillScopeChange={model.skillScopeChange} />
+        element: <SkillsBarRank skillsRanking={model.skillsRanking} skillScopeChange={model.skillScopeChange} onBar={barHandler} />
       }
     ])
   }
@@ -81,7 +90,8 @@ function App(props) {
         studentB={props.model.currentChord.studentB}
         topic={props.model.currentChord.topic}
       /> : null}
-    <PersonDetailView person={props.model.getStudents()[8]} />
+
+    {props.model.currentPerson !== null ? <PersonDetailView person={props.model.currentPerson} onCloseDetail={closeDetailHandler} /> : null}
     <RouterProvider className="mainContent" router={makeRouter(props.model)} />
   </div>;
 }

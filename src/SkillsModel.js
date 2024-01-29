@@ -4,9 +4,10 @@ export default {
     modelReady: false,
     chordMatrix: [[]],
     skillsRanking: [],
-    test: true,
+    chordScopeChange: false,
     skillScopeChange: false,
     currentChord: {},
+    currentPerson: null,
 
     setDataSet(datSet) {
         this.students = datSet.students;
